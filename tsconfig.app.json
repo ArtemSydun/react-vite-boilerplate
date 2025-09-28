@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 
     "target": "ES2022",
@@ -10,13 +9,9 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": false,
     "moduleDetection": "force",
     "jsx": "react-jsx",
-    
-    /* Emit requirement for allowImportingTsExtensions in a composite project */
-    "emitDeclarationOnly": true,
     
     /* Linting */
     "strict": true,
@@ -32,5 +27,5 @@
     /* Ensure Vite env types are loaded */
     "types": ["vite/client"]
   },
-  "include": ["src", "src/vite-env.d.ts"]
+  "include": ["src"]
 }
